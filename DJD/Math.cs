@@ -85,7 +85,7 @@
         /// <returns>The average.</returns>
         public static float Average(float[] values)
         {
-            return Sum(values)/ values.Length;
+            return Sum(values) / values.Length;
         }
 
         /// <summary>
@@ -131,6 +131,49 @@
             return value;
         }
 
+        public static int Square(int value)
+        {
+            return value * value;
+        }
+
+        public static float Square(float value)
+        {
+            return value * value;
+        }
+
+
+        public static int Power(int value, int times)
+        {
+            for (int i = 0; i < times; i++)
+            {
+                value *= value;
+            }
+
+            return value;
+        }
+
+        public static float Power(float value, float times)
+        {
+            for (int i = 0; i < times; i++)
+            {
+                value *= value;
+            }
+
+            return value;
+        }
+
+        public static bool Prime(int value)
+        {
+            int count = 0;
+
+            for (int i = 0; i < value; i++)
+            {
+                if (i % value == 0)
+                    count++;
+            }
+
+            return !(count > 2);
+        }
         // Add square root function
     }
 }

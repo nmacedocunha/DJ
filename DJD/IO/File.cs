@@ -16,5 +16,12 @@ namespace DJD.IO
                 }
             }
         }
+
+        // Add more writing options, maybe json and read options aswells.
+
+        // Maybe write with encryption
+        // Generic readers ?
+
+
     }
 }
