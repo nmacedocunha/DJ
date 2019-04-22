@@ -130,5 +130,7 @@
 
             return value;
         }
+
+        // Add square root function
     }
 }

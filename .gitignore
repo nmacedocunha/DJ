@@ -1,5 +1,8 @@
 .DS_Store
 
+/DJD/bin
+/DJD/obj
+
 /bin
 /obj
 
