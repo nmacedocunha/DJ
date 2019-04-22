@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="IO\" />
+    <Folder Include="Collections\" />
+    <Folder Include="Collections\Generic\" />
+  </ItemGroup>
 </Project>

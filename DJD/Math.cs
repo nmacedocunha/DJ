@@ -64,7 +64,7 @@
 
             for (int i = 0; i < values.Length; i++)
             {
-                value = values[i] > value ? values[i] : value;
+                value = Max(value, values[i]);
             }
 
             return value;
@@ -76,14 +76,7 @@
         /// <returns>The average.</returns>
         public static int Average(int[] values)
         {
-            int value = 0;
-
-            for (int i = 0; i < values.Length; i++)
-            {
-                value += values[i];
-            }
-
-            return value / values.Length;
+            return Sum(values) / values.Length;
         }
 
         /// <summary>
@@ -92,14 +85,7 @@
         /// <returns>The average.</returns>
         public static float Average(float[] values)
         {
-            float value = 0f;
-
-            for (int i = 0; i < values.Length; i++)
-            {
-                value += values[i];
-            }
-
-            return value / values.Length;
+            return Sum(values)/ values.Length;
         }
 
         /// <summary>
@@ -118,8 +104,31 @@
         /// <returns>Returns the value within restrictions.</returns>
         public static float Clamp(float value, float min, float max)
         {
-
             return value > max ? max : value < min ? min : value;
+        }
+
+        public static int Sum(int[] values)
+        {
+            int value = 0;
+
+            for (int i = 0; i < values.Length; i++)
+            {
+                value += values[i];
+            }
+
+            return value;
+        }
+
+        public static float Sum(float[] values)
+        {
+            float value = 0;
+
+            for (int i = 0; i < values.Length; i++)
+            {
+                value += values[i];
+            }
+
+            return value;
         }
     }
 }
