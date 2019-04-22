@@ -39,7 +39,7 @@
         }
 
         /// <summary>
-        /// Check which value is the hight
+        /// Check which value is the highest.
         /// </summary>
         /// <returns>Returns the max value</returns>
         public static int Max(int[] values)
@@ -48,14 +48,14 @@
 
             for (int i = 0; i < values.Length; i++)
             {
-                value = value > values[i] ? values[i] : value;
+                value = values[i] > value ? values[i] : value;
             }
 
             return value;
         }
 
         /// <summary>
-        /// Check which value is the hight
+        /// Check which value is the highest.
         /// </summary>
         /// <returns>Returns the max value</returns>
         public static float Max(float[] values)
@@ -64,10 +64,62 @@
 
             for (int i = 0; i < values.Length; i++)
             {
-                value = value > values[i] ? values[i] : value;
+                value = values[i] > value ? values[i] : value;
             }
 
             return value;
+        }
+
+        /// <summary>
+        /// Average of the values.
+        /// </summary>
+        /// <returns>The average.</returns>
+        public static int Average(int[] values)
+        {
+            int value = 0;
+
+            for (int i = 0; i < values.Length; i++)
+            {
+                value += values[i];
+            }
+
+            return value / values.Length;
+        }
+
+        /// <summary>
+        /// Average of the values.
+        /// </summary>
+        /// <returns>The average.</returns>
+        public static float Average(float[] values)
+        {
+            float value = 0f;
+
+            for (int i = 0; i < values.Length; i++)
+            {
+                value += values[i];
+            }
+
+            return value / values.Length;
+        }
+
+        /// <summary>
+        /// Clamp the specified value between a Min and Max.
+        /// </summary>
+        /// <returns>Returns the value within restrictions.</returns>
+        public static int Clamp(int value, int min, int max)
+        {
+
+            return value > max ? max : value < min ? min : value;
+        }
+
+        /// <summary>
+        /// Clamp the specified value between a Min and Max.
+        /// </summary>
+        /// <returns>Returns the value within restrictions.</returns>
+        public static float Clamp(float value, float min, float max)
+        {
+
+            return value > max ? max : value < min ? min : value;
         }
     }
 }
