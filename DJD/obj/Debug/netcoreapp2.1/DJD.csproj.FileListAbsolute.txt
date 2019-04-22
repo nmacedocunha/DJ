@@ -1,0 +1,9 @@
+/Users/nmacedocunha/Projects/DJD/DJD/bin/Debug/netcoreapp2.1/DJD.deps.json
+/Users/nmacedocunha/Projects/DJD/DJD/bin/Debug/netcoreapp2.1/DJD.dll
+/Users/nmacedocunha/Projects/DJD/DJD/bin/Debug/netcoreapp2.1/DJD.pdb
+/Users/nmacedocunha/Projects/DJD/DJD/obj/Debug/netcoreapp2.1/DJD.csprojAssemblyReference.cache
+/Users/nmacedocunha/Projects/DJD/DJD/obj/Debug/netcoreapp2.1/DJD.csproj.CoreCompileInputs.cache
+/Users/nmacedocunha/Projects/DJD/DJD/obj/Debug/netcoreapp2.1/DJD.AssemblyInfoInputs.cache
+/Users/nmacedocunha/Projects/DJD/DJD/obj/Debug/netcoreapp2.1/DJD.AssemblyInfo.cs
+/Users/nmacedocunha/Projects/DJD/DJD/obj/Debug/netcoreapp2.1/DJD.dll
+/Users/nmacedocunha/Projects/DJD/DJD/obj/Debug/netcoreapp2.1/DJD.pdb

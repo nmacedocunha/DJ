@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DJD/Math.cs">
+    <Files>
+      <File FileName="DJD/Queue.cs" Line="9" Column="23" />
+      <File FileName="DJD/LinkedList.cs" Line="88" Column="1" />
+      <File FileName="DJD/List.cs" Line="1" Column="14" />
+      <File FileName="DJD/Math.cs" Line="25" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DJD" expanded="True">
+            <Node name="DJD" expanded="True">
+              <Node name="Math.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
