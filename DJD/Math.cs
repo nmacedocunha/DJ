@@ -107,6 +107,10 @@
             return value > max ? max : value < min ? min : value;
         }
 
+        /// <summary>
+        /// Sum of collection of numbers
+        /// </summary>
+        /// <returns>The sum value.</returns>
         public static int Sum(int[] values)
         {
             int value = 0;
@@ -119,6 +123,10 @@
             return value;
         }
 
+        /// <summary>
+        /// Sum of collection of numbers
+        /// </summary>
+        /// <returns>The sum value.</returns>
         public static float Sum(float[] values)
         {
             float value = 0;
@@ -131,17 +139,29 @@
             return value;
         }
 
+        /// <summary>
+        /// The Square value of a number
+        /// </summary>
+        /// <returns>The square of the value</returns>
         public static int Square(int value)
         {
             return value * value;
         }
 
+        /// <summary>
+        /// The Square value of a number
+        /// </summary>
+        /// <returns>The square of the value</returns>
         public static float Square(float value)
         {
             return value * value;
         }
 
 
+        /// <summary>
+        /// The power of a certain number. Number^X 
+        /// </summary>
+        /// <returns>The power of the value</returns>
         public static int Power(int value, int times)
         {
             for (int i = 0; i < times; i++)
@@ -152,6 +172,10 @@
             return value;
         }
 
+        /// <summary>
+        /// The power of a certain number. Number^X 
+        /// </summary>
+        /// <returns>The power of the value</returns>
         public static float Power(float value, float times)
         {
             for (int i = 0; i < times; i++)
@@ -161,7 +185,9 @@
 
             return value;
         }
-
+        /// <summary>
+        /// Check if the number is prime or not
+        /// </summary>
         public static bool Prime(int value)
         {
             int count = 0;
@@ -174,6 +200,16 @@
 
             return !(count > 2);
         }
+
+        /// <summary>
+        /// Check if value is even.
+        /// </summary>
+        /// <returns><c>true</c>, if number was evened, <c>false</c> if number is odd</returns>
+        public static bool EvenNumber(int value)
+        {
+            return value % 2 == 0;
+        }
+
         // Add square root function
     }
 }
